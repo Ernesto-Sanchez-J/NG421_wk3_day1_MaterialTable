@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { IClassMember } from '../Interface/class-member';
+import { MatTableDataSource } from '@angular/material/table';
 
 @Component({
   selector: 'app-table',
@@ -6,6 +8,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./table.component.css']
 })
 export class TableComponent implements OnInit {
+
+  displayedColumns: string[] = ['Seat', 'Name', 'Grade', 'Passing'];
+
 
   constructor() { }
 
