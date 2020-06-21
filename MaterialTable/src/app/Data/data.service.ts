@@ -1,6 +1,6 @@
-import { ClassMember} from '../Interface/class-member';
+import { IClassMember} from '../Interface/class-member';
 
-const ClassMember: ClassMember[] = [
+const ClassMember: IClassMember[] = [
   {
     Seat: 1,
     Name: 'Rob Luci',
