@@ -1,4 +1,3 @@
-import { Injectable } from '@angular/core';
 import { ClassMember} from '../Interface/class-member';
 
 const ClassMember: ClassMember[] = [
@@ -64,10 +63,5 @@ const ClassMember: ClassMember[] = [
   },
 
 ];
-@Injectable({
-  providedIn: 'root'
-})
-export class DataService {
+export {ClassMember};
 
-  constructor() { }
-}
