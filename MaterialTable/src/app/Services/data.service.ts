@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { ClassMember} from '../Interface/class-member';
-import { TmplAstRecursiveVisitor } from '@angular/compiler';
 
 const ClassMember: ClassMember[] = [
   {
